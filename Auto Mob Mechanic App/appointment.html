@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment | AutoMob-Mechanic</title>
+</head>
+
+<body>
+    <form action="booking-success.html">
+        <h2><a href="home.html">AutoMob-Mechanic</a></h2>
+        <a href="home.html">Home </a>|
+        <a href="services.html">services </a>|
+        <a href="booking.html">booking </a>|
+        <a href="2k22.csiot.32045@gmail.com">contact@automob.co.in </a>| 123 456 899
+        <hr>
+        <br>
+        <h1>Schedule Your Appointment</h1>
+        <br>
+        <br>
+        <label for="date">Appointment Date: </label>
+        <input type="date" name="date" id="date" required>
+        <br>
+        <br>
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="10" required></textarea>
+        <br>
+        <br>
+        <label for="city">City: </label>
+        <input type="text" name="city" id="city" required>
+        <br>
+        <br>
+        <label for="state">State: </label>
+        <input list="state" name="state" required>
+        <datalist id="state">
+            <option value="Assam">
+            <option value="Bihar">
+            <option value="Gujrat">
+            <option value="Goa">
+            <option value="Others">
+        </datalist>
+        <br>
+        <br>
+        <label for="notify">Send Notification</label>
+        <input type="checkbox" name="email" id="email">
+        <label for="email">Email</label>
+        <input type="checkbox" name="sms" id="sms">
+        <label for="sms">SMS</label>
+        <br>
+        <br>
+        <input type="submit" name="booking" id="booking" formmethod="post" value="Book">
+    </form>
+    <br>
+    <br>
+    <hr>
+    Copyright 2020 AutoMob-Mechanic. All Rights Reserved.
+</body>
+
+</html>

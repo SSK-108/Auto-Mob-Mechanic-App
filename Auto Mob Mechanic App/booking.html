@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking | AutoMob-Mechanic</title>
+</head>
+
+<body>
+    <h2><a href="home.html">AutoMob-Mechanic</a></h2>
+    <a href="home.html">Home </a>|
+    <a href="services.html">services </a>|
+    <a href="booking.html">booking </a>|
+    <a href="2k22.csiot.32045@gmail.com">contact@automob.co.in </a>| 123 456 899
+    <hr>
+    <br>
+    <h2>Book Your Service</h2>
+    <br>
+    <form action="appointment.html">
+        <label for="name"><b>Name: </b></label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <br>
+        <label for="email"><b>Email Id: </b></label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <br>
+        <label for="phone"><b>Phone Number: </b></label>
+        <select name="code" id="code" required>
+            <option value="+213">+213</option>
+            <option value="+244">+91</option>
+            <option value="+91">+61</option>
+            <option value="+61">+244</option>
+        </select>
+        <input type="tel" name="phone" id="phone" maxlength="10" required>
+        <br>
+        <br>
+        <label for="service"><b>Select Service</b></label>
+        <select name="service" id="service" required>
+            <option value="Preventive Maintenance Service">Preventive Maintenance Service</option>
+            <option value="Body Repair Service">Body Repair Service</option>
+            <option value="Car Care Service">Car Care Service</option>
+        </select>
+        <br>
+        <br>
+        <label for="car"><b>Car Make: </b></label>
+        <input list="car" name="car" required>
+        <datalist id="car">
+            <option value="Mahindra">
+            <option value="Honda">
+            <option value="Hyundai">
+            <option value="Ford">
+            <option value="Toyota">
+            <option value="Nissan">
+            <option value="Other">
+        </datalist>
+        <label for="model"><b>Car Model: </b></label>
+        <input type="text" name="model" id="model" required>
+        <br>
+        <br>
+        <label for="fuel"><b>Fuel Type: </b></label>
+        <input type="radio" id="petrol" name="fuel" value="petrol">
+        <label for="petrol">Petrol</label>
+        <input type="radio" id="diesel" name="fuel" value="diesel">
+        <label for="diesel">Diesel</label>
+        <input type="radio" id="LPG" name="fuel" value="LPG">
+        <label for="LPG">LPG</label>
+        <input type="radio" id="others" name="fuel" value="others">
+        <label for="others">Others</label>
+        <br>
+        <br>
+        <label for="km"><b>Kilometers Ran: </b></label>
+        <input type="number" name="km" id="km">
+        <br>
+        <br>
+        <input type="submit" name="sch" id="sch" formmethod="post" value="Schedule an Appointment">
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    Copyright 2020 AutoMob-Mechanic. All Rights Reserved.
+</body>
+
+</html>
